@@ -3,3 +3,22 @@ node_modules/
 .playwright-cli/
 _tmp_*.mjs
 
+# Scripts with tokens — local only
+analyze-keywords.mjs
+analyze.mjs
+wordstat.mjs
+scrape.mjs
+make-table.mjs
+cron-update.mjs
+
+# Large data files — local only
+books.json
+books.csv
+books-table.html
+analysis.json
+keyword-volumes.json
+wordstat-volumes.json
+
+# Screenshots
+*.png
+*.yaml
